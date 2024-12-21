@@ -62,6 +62,12 @@ body {
   }
 }
 
+
+@font-face {
+  font-family:'mainfont';
+  src: url('/public/fonts/mainfont.otf') format('opentype');
+}
+
 @layer base {
   * {
     @apply border-border;
