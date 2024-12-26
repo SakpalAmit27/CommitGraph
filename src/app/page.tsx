@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
+
 
 export default function Home() {
   return (
     <div className="flex items-center flex-col text-center">
-    CommitGraph
 
-    <Button>Button</Button>
+      <h2 className='font-mainfont font-bold text-4xl tracking-wide'>CommitGraph</h2>
     </div>
   );
 }
