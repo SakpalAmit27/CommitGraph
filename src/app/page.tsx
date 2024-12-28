@@ -11,12 +11,17 @@ export default function Home() {
           <div className="relative mx-auto text-center flex flex-col items-center gap-10 max-w-2xl">
             <div>
               <Heading>
-                <span>Analyze Your Commits ,</span>
+                <span>Your Commit History, </span>
                 <br />
                 <span className="relative bg-gradient-to-r from-zinc-600 to-zinc-900 bg-clip-text text-transparent">
-                  Without Pressing Unnecessary Back Buttons !
+                Made Effortless.
                 </span>
               </Heading>
+
+              <p className="font-sans text-base/7 text-gray-600 max-w-prose">
+                CommitGraph is the Easiest Way to manage Your Commits and Look at Your Commits ! , Say Goodbye to lazy <span className="font-semibold text-gray-700">Back Buttons</span> <br />
+                By <span className="font-semibold text-gray-700">Visualizing Them into a Numbered Graph </span> For Better Understanding !
+              </p>
             </div>
           </div>
         </MaxWidthWrapper>
