@@ -19,7 +19,8 @@ export default function Home() {
               </Heading>
             </div>
             <p className="font-sans text-base/7 text-gray-600 max-w-prose">
-              CommitGraph is the Easiest Way to Monitor Your Commits Without any Problems ! , Say Goodbye to lazy{" "}
+              CommitGraph is the Easiest Way to Monitor Your Commits Without any
+              Problems ! , Say Goodbye to lazy{" "}
               <span className="font-semibold text-gray-700">Back Buttons</span>{" "}
               <br />
               By{" "}
@@ -28,6 +29,10 @@ export default function Home() {
               </span>{" "}
               For Better Understanding !
             </p>
+
+            <div className="w-full max-w-80">
+              <ShinyButton/>
+            </div>
           </div>
         </MaxWidthWrapper>
       </section>
