@@ -19,5 +19,7 @@ export const ShinyButton = ({className,children,href,...props} : ShinyButtonProp
             {children}
             <Github className="size-6 shrink-0 text-white transition-transform duration-300 ease-in-out group-hover:translate-x-[7px]"/>
         </span>
+
+        <div />
     </Link>
 }
