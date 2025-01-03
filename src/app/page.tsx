@@ -32,7 +32,7 @@ export default function Home() {
             </p>
 
             <div className="w-full max-w-80">
-              <ShinyButton className="text-lg">Connect To Github</ShinyButton>
+              <ShinyButton className="text-lg relative z-10 h-12 w-full text-base shadow-lg transition-shadow duration-300 hover:shadow-xl">Connect To Github</ShinyButton>
             </div>
           </div>
         </MaxWidthWrapper>
