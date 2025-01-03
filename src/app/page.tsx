@@ -1,5 +1,6 @@
 import { Heading } from "@/components/heading/heading";
 import { MaxWidthWrapper } from "@/components/max-width-wrapper";
+import { ShinyButton } from "@/components/ShinyButton/shiny-button";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
             </p>
 
             <div className="w-full max-w-80">
-              <ShinyButton/>
+              <ShinyButton className="text-lg">Connect To Github</ShinyButton>
             </div>
           </div>
         </MaxWidthWrapper>
