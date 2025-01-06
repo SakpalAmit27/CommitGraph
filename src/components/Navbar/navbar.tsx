@@ -16,7 +16,13 @@ export const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
             <Link href='/' className=""><span className="font-mainfont text-2xl sm:text-3xl">CommitGraph</span></Link>
 
-            <div className="h-full items-center space-x-4"></div>
+            <div className="h-full items-center space-x-4">
+              {user ? <>
+              
+              
+              
+              </>: null}
+            </div>
         </div>
       </MaxWidthWrapper>
     </nav>
