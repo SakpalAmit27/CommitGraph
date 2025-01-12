@@ -1,6 +1,9 @@
+"use client"
+
 import { Heading } from "@/components/heading/heading";
 import { MaxWidthWrapper } from "@/components/max-width-wrapper";
 import { ShinyButton } from "@/components/ShinyButton/shiny-button";
+import {signIn} from "next-auth/react";
 
 export default function Home() {
   return (
@@ -32,7 +35,7 @@ export default function Home() {
             </p>
 
             <div className="w-full max-w-80">
-              <ShinyButton className="relative z-10 h-11 w-full text-base shadow-lg transition-shadow duration-300 hover:shadow-xl">Connect To Github</ShinyButton>
+              <ShinyButton className="relative z-10 h-11 w-full text-base shadow-lg transition-shadow duration-300 hover:shadow-xl" onClick={() => signIn("github", { callbackUrl: "/" })}>Connect To Github</ShinyButton>
             </div>
           </div>
         </MaxWidthWrapper>
